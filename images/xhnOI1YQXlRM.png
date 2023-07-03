@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<script type="text/javascript">
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
+</script>
+
+
+		<meta name="robots" content="noindex, follow">
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.8 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>404 Page Not Found - Spark Engine</title>
+	<meta property="og:locale" content="en_GB">
+	<meta property="og:title" content="404 Page Not Found - Spark Engine">
+	<meta property="og:site_name" content="Spark Engine">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://sparkengine.tv/#website","url":"https://sparkengine.tv/","name":"Spark Engine","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://sparkengine.tv/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-GB"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//use.typekit.net">
+<link rel="alternate" type="application/rss+xml" title="Spark Engine &raquo; Feed" href="https://sparkengine.tv/feed/">
+<link rel="alternate" type="application/rss+xml" title="Spark Engine &raquo; Comments Feed" href="https://sparkengine.tv/comments/feed/">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.15 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-32542138-1" data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.15';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-32542138-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+							
+														parameters.send_to = monsterinsights_frontend.ua;
+							__gtagDataLayer(type, name, parameters);
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+															__gtagTracker('config', 'UA-32542138-1', {"forceSSL":"true","page_path":'\/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<link rel="stylesheet" id="wp-block-library-css" href="../css/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="../css/classic-themes.min.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('paypal-logo.png#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('paypal-logo.png#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('paypal-logo.png#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('paypal-logo.png#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('paypal-logo.png#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('paypal-logo.png#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('paypal-logo.png#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('paypal-logo.png#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="typekit-fonts-css" href="../css/mzd6nap.css" type="text/css" media="all">
+<link rel="stylesheet" id="spark-engine-css" href="../css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="../js/frontend-gtag.min.js" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id="monsterinsights-frontend-script-js-extra">/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/sparkengine.tv","hash_tracking":"false","ua":"UA-32542138-1","v4_id":""};/* ]]> */
+</script>
+<script type="text/javascript" src="../js/jquery.min.js" id="jquery-js"></script>
+<script type="text/javascript" defer="defer" src="../js/jquery.json.min.js" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"GBP"},"base_url":"https:\/\/sparkengine.tv\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/sparkengine.tv\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"1a2fa427588f8e9632c9b7280935cf2c","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"GBP"},"base_url":"https:\/\/sparkengine.tv\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/sparkengine.tv\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"1a2fa427588f8e9632c9b7280935cf2c","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"GBP"},"base_url":"https:\/\/sparkengine.tv\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/sparkengine.tv\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"1a2fa427588f8e9632c9b7280935cf2c","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = {"12":"1","10":"1","9":"1"};
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/sparkengine.tv\/wp-content\/plugins\/gravityforms\/images"}};
+/* ]]> */
+</script>
+<script type="text/javascript" id="gform_gravityforms-js-before">
+
+</script>
+<script type="text/javascript" defer="defer" src="../js/gravityforms.min.js" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer="defer" src="../js/utils.min.js" id="gform_gravityforms_utils-js"></script>
+<link rel="https://api.w.org/" href="https://sparkengine.tv/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sparkengine.tv/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sparkengine.tv/wp-includes/wlwmanifest.xml">
+
+<link rel="icon" href="cropped-SE_Fav-150x150.png" sizes="32x32">
+<link rel="icon" href="cropped-SE_Fav-300x300.png" sizes="192x192">
+<link rel="apple-touch-icon" href="cropped-SE_Fav-300x300.png">
+<meta name="msapplication-TileImage" content="https://sparkengine.tv/wp-content/uploads/2018/08/cropped-SE_Fav-300x300.png">
+	</head>
+	<body class="error404 no-touch no-js site-scroll--inactive">
+		<div class="page-wrap page-loading-in">
+			
+			<div class="site-header">
+				<a class="site-logo" href="https://sparkengine.tv">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 402.22 110.97"><defs><style>.\33 eaf43f9-5baf-4d06-a56e-79627f7ef557{fill:#fff;}.\32 90b16d3-8bc7-4696-a483-c0429e8af797{fill:#ff1e3c;}</style></defs><g id="008b98e5-ee16-4aaf-956c-476aa3e5e29e"><g id="d580f368-073a-4d7a-a468-f2f803af91b0"><path d="M49 111a6.66 6.66 0 0 1-3.35-.9L3.35 85.68A6.71 6.71 0 0 1 0 79.88V31.09a6.71 6.71 0 0 1 3.35-5.8L45.6.9a6.68 6.68 0 0 1 6.7 0l42.25 24.39a6.7 6.7 0 0 1 3.35 5.8v48.79a6.71 6.71 0 0 1-3.35 5.8L52.3 110.07a6.66 6.66 0 0 1-3.3.93zM49 5.28a1.38 1.38 0 0 0-.71.19L6 29.86a1.42 1.42 0 0 0-.71 1.23v48.79A1.44 1.44 0 0 0 6 81.11l42.24 24.39a1.44 1.44 0 0 0 1.42 0l42.25-24.39a1.44 1.44 0 0 0 .71-1.23V31.09a1.42 1.42 0 0 0-.71-1.23L49.66 5.47a1.38 1.38 0 0 0-.66-.19z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M64.44 27.23l-2.54 4.64 13.27 7.66a1.41 1.41 0 0 1 .71 1.23v29.45a1.37 1.37 0 0 1-.38 1l4.56 2.7a6.71 6.71 0 0 0 1.09-3.66V40.76A6.73 6.73 0 0 0 77.81 35l-13.37-7.77z" class="290b16d3-8bc7-4696-a483-c0429e8af797"/><path d="M77.13 76.53a8.63 8.63 0 0 0 2.94-2.66L49 55.48l-28.52 52.06a.76.76 0 0 0 1 1l55.61-32zM51 62.81L70.42 74.3 32.84 96z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M21.82 33.85a12.63 12.63 0 0 0-4 3.25L49 55.48 77.42 3.56a.76.76 0 0 0-1-1zm25.12 14.31L27.49 36.68l37.57-21.56z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M17.83 37.1a6.69 6.69 0 0 0-1.09 3.66v29.45A6.72 6.72 0 0 0 20.09 76l13.4 7.74L36 79.12l-13.3-7.68a1.41 1.41 0 0 1-.7-1.23V40.76a1.42 1.42 0 0 1 .38-1l-4.57-2.7z" class="290b16d3-8bc7-4696-a483-c0429e8af797"/><path d="M129.19 48.38v-5.8c0-3.42-1.65-4.76-4.58-4.76S120 39.16 120 42.58v2.93c0 2.57.92 3.48 3.36 4.89l5.64 3.05c3.66 2.08 6 4.16 6 8.25v5.92c0 6.42-3.73 8.92-10.21 8.92h-.12c-6.47 0-10.2-2.44-10.2-8.92v-7.26H120v6.29c0 3.36 1.65 4.88 4.64 4.88s4.65-1.52 4.65-4.88v-3.36c0-2.57-.92-3.67-3.42-5.07l-5.5-3.06c-3.91-2.26-6-4.09-6-8.18V41.6c0-6.17 4.28-8.79 10.14-8.79h.12c5.87 0 10.14 2.62 10.14 8.79v6.78z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M163.09 42.34V50c0 6.29-3.91 9-10.38 9h-5v17H142V33.3h10.69c6.49 0 10.4 2.75 10.4 9.04zm-5.74 1.1c0-3.79-1.71-5.07-4.88-5.07h-4.71v15.51h4.71c3.17 0 4.88-1.28 4.88-5z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M182 66h-9.16L171 76.05h-5.55L174 33.3h7.08l8.61 42.75h-5.89zm-.92-4.83l-3.63-20.67-3.73 20.65z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M211.84 76.05l-5.93-17.53h-5v17.53h-5.74V33.3h10.69c6.47 0 10.38 2.75 10.38 9v7.14c0 4.28-1.83 6.91-5 8.19l6.48 18.38zM200.9 53.51h4.71c3.17 0 4.88-1.28 4.88-5.07v-5c0-3.79-1.71-5.07-4.88-5.07h-4.71z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M240.67 76.05l-7-20.46-4 7.39v13.07h-5.74V33.3h5.74v20.58l10-20.58h6.11l-8.74 16.06 9.47 26.69z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M256.3 76.05V33.3h18v5.07H262V51.8h10.39v5.14H262V71h12.5v5.07z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M281.28 76.05V33.3H287l10.75 29.44V33.3h5.32v42.75h-5.5l-11-30.41v30.41z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M332.16 67.5c0 6.42-3.91 9-10.38 9h-.49c-6.47 0-10.38-2.56-10.38-9V41.85c0-6.17 3.91-9 10.38-9h.49c6.47 0 10.38 2.87 10.38 9v5.92h-5.74V43c0-3.79-1.71-5.07-4.88-5.07s-4.89 1.28-4.89 5.07v23.4c0 3.79 1.71 5.07 4.89 5.07s4.88-1.28 4.88-5.07v-7.14h-5.13v-4.89h10.87z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M340.1 76.05V33.3h5.74v42.75z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M354.15 76.05V33.3h5.74l10.75 29.44V33.3H376v42.75h-5.5l-11-30.41v30.41z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M384 76.05V33.3h18v5.07h-12.24V51.8h10.38v5.14h-10.38V71h12.46v5.07z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/></g></g></svg>				</a>
+
+				<a class="toggle-menu js-toggle-menu" href="#"></a>
+
+				<div class="site-header__page txt-upper txt-light">Why Tech Companies Need Video and Animation in Their Marketing Mix</div>
+			</div>
+
+			<div class="site-menu-overlay">
+				<div class="site-menu-overlay__inner">
+					<div class="site-menu-outer">
+						<ul class="site-menu section section--large">
+							<li id="menu-item-361" class="menu-item--work menu-item menu-item-type-custom menu-item-object-custom menu-item-361"><a href="/work">work</a></li>
+<li id="menu-item-360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-360"><a href="https://sparkengine.tv/services/">Services</a></li>
+<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="https://sparkengine.tv/about-us/">About</a></li>
+<li id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-357"><a href="https://sparkengine.tv/careers/">Careers</a></li>
+<li id="menu-item-359" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-359"><a href="https://sparkengine.tv/journal/">Journal</a></li>
+<li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="https://sparkengine.tv/contact/">Contact</a></li>
+						</ul>
+					</div>
+
+					
+					<div class="site-menu-footer spacing-small">
+						<div class="site-menu-footer__content section section--large grid grid--spaced grid--spaced-tb2-6 txt-center txt-light">
+                            
+                                                            <div class="grid__col grid__col--4 grid__col--tb2-6">
+                                                                            <h2 class="site-menu-footer__title">MCR</h2>
+                                    
+                                                                            <a class="site-menu-footer__link" href="44">+44 (0)330 043 0120</a>
+                                    	
+
+                                                                            <a class="site-menu-footer__link" href="0">hello@sparkengine.tv</a>
+                                    	
+                                </div>
+                            
+							<div class="site-menu-footer__social grid__col grid__col--4 grid__col--tb2-12">
+											<ul class="social social--dark">
+															<li class="social__item social__item--facebook">
+							<a href="https://www.facebook.com/sparkengineuk" target="_blank">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.5 30"><path d="M3 4.5A4.5 4.5 0 0 1 7.5 0h6v6c.09-.09-3.75 0-3.75 0a.75.75 0 0 0-.75.75v3.75h4.4l-1.4 6H9V30H3V16.5H0v-6h3v-6z"/></svg>							</a>
+						</li>
+																				<li class="social__item social__item--twitter">
+							<a href="https://twitter.com/sparkengine" target="_blank">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.95 24.34"><path d="M26.88 6.06v.79c.02 8.13-6.16 17.49-17.43 17.49a17.39 17.39 0 0 1-9.42-2.76 12.46 12.46 0 0 0 1.47.09 12.33 12.33 0 0 0 7.63-2.63 6.15 6.15 0 0 1-5.74-4.27 6.16 6.16 0 0 0 2.77-.11 6.15 6.15 0 0 1-4.93-6v-.08a6.12 6.12 0 0 0 2.78.77 6.15 6.15 0 0 1-1.9-8.2 17.44 17.44 0 0 0 12.66 6.42 6.15 6.15 0 0 1 10.47-5.6 12.3 12.3 0 0 0 3.9-1.49 6.16 6.16 0 0 1-2.7 3.4 12.28 12.28 0 0 0 3.53-1 12.48 12.48 0 0 1-3.09 3.18z"/></svg>							</a>
+						</li>
+																				<li class="social__item social__item--instagram">
+							<a href="https://www.instagram.com/sparkengine.tv" target="_blank">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M21 3a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h14m0-3H7a7 7 0 0 0-7 7v14a7 7 0 0 0 7 7h14a7 7 0 0 0 7-7V7a7 7 0 0 0-7-7z"/><path d="M14 9.91A4.09 4.09 0 1 1 9.91 14 4.09 4.09 0 0 1 14 9.91m0-3A7.09 7.09 0 1 0 21.09 14 7.1 7.1 0 0 0 14 6.91z"/><circle cx="21.5" cy="6.5" r="1.5"/></svg>							</a>
+						</li>
+																					</ul>
+									</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+							
+	
+	<section class="site-banner site-banner--bg site-banner--std" data-animate="load">
+		<div class="site-banner__bg" style="background-image: url(placeholder-image-2000x1180.jpg)"></div>
+		<div class="site-banner__inner section section--huge grid post-styles">
+			<div class="site-banner__content grid__col grid__col--5 grid__col--lt-6 grid__col--tb1-7 grid__col--tb2-8 grid__col--m-12">
+				<h2 class="site-banner__subtitle">404 page not found</h2>				<h1 class="site-banner__title">Oops!</h1>				
+									<div class="site-banner__btn"><a class="btn" href="/">Return home</a></div>							</div>
+		</div>
+
+			</section>
+
+			
+	<a class="page-cta bg-red" href="/contact">			<div class="section section--medium spacing-small txt-center txt-light">
+									<h3 class="subtitle">Become a client</h3>
+				
+									<h2>Get in touch</h2>
+				
+				<div class="page-cta__arrow">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 10"><polygon points="26 5 21 0 21 10 26 5"/><rect width="23" height="2" y="4"/></svg>				</div>
+			</div>
+	</a>
+							
+				<footer class="site-footer spacing-medium">
+					<div class="site-footer__top grid grid--spaced section section--large">
+						<div class="grid__col grid__col--6 grid__col--m-12">
+							<a class="site-logo-small" href="https://sparkengine.tv">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 402.22 110.97"><defs><style>.\33 eaf43f9-5baf-4d06-a56e-79627f7ef557{fill:#fff;}.\32 90b16d3-8bc7-4696-a483-c0429e8af797{fill:#ff1e3c;}</style></defs><g id="008b98e5-ee16-4aaf-956c-476aa3e5e29e"><g id="d580f368-073a-4d7a-a468-f2f803af91b0"><path d="M49 111a6.66 6.66 0 0 1-3.35-.9L3.35 85.68A6.71 6.71 0 0 1 0 79.88V31.09a6.71 6.71 0 0 1 3.35-5.8L45.6.9a6.68 6.68 0 0 1 6.7 0l42.25 24.39a6.7 6.7 0 0 1 3.35 5.8v48.79a6.71 6.71 0 0 1-3.35 5.8L52.3 110.07a6.66 6.66 0 0 1-3.3.93zM49 5.28a1.38 1.38 0 0 0-.71.19L6 29.86a1.42 1.42 0 0 0-.71 1.23v48.79A1.44 1.44 0 0 0 6 81.11l42.24 24.39a1.44 1.44 0 0 0 1.42 0l42.25-24.39a1.44 1.44 0 0 0 .71-1.23V31.09a1.42 1.42 0 0 0-.71-1.23L49.66 5.47a1.38 1.38 0 0 0-.66-.19z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M64.44 27.23l-2.54 4.64 13.27 7.66a1.41 1.41 0 0 1 .71 1.23v29.45a1.37 1.37 0 0 1-.38 1l4.56 2.7a6.71 6.71 0 0 0 1.09-3.66V40.76A6.73 6.73 0 0 0 77.81 35l-13.37-7.77z" class="290b16d3-8bc7-4696-a483-c0429e8af797"/><path d="M77.13 76.53a8.63 8.63 0 0 0 2.94-2.66L49 55.48l-28.52 52.06a.76.76 0 0 0 1 1l55.61-32zM51 62.81L70.42 74.3 32.84 96z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M21.82 33.85a12.63 12.63 0 0 0-4 3.25L49 55.48 77.42 3.56a.76.76 0 0 0-1-1zm25.12 14.31L27.49 36.68l37.57-21.56z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M17.83 37.1a6.69 6.69 0 0 0-1.09 3.66v29.45A6.72 6.72 0 0 0 20.09 76l13.4 7.74L36 79.12l-13.3-7.68a1.41 1.41 0 0 1-.7-1.23V40.76a1.42 1.42 0 0 1 .38-1l-4.57-2.7z" class="290b16d3-8bc7-4696-a483-c0429e8af797"/><path d="M129.19 48.38v-5.8c0-3.42-1.65-4.76-4.58-4.76S120 39.16 120 42.58v2.93c0 2.57.92 3.48 3.36 4.89l5.64 3.05c3.66 2.08 6 4.16 6 8.25v5.92c0 6.42-3.73 8.92-10.21 8.92h-.12c-6.47 0-10.2-2.44-10.2-8.92v-7.26H120v6.29c0 3.36 1.65 4.88 4.64 4.88s4.65-1.52 4.65-4.88v-3.36c0-2.57-.92-3.67-3.42-5.07l-5.5-3.06c-3.91-2.26-6-4.09-6-8.18V41.6c0-6.17 4.28-8.79 10.14-8.79h.12c5.87 0 10.14 2.62 10.14 8.79v6.78z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M163.09 42.34V50c0 6.29-3.91 9-10.38 9h-5v17H142V33.3h10.69c6.49 0 10.4 2.75 10.4 9.04zm-5.74 1.1c0-3.79-1.71-5.07-4.88-5.07h-4.71v15.51h4.71c3.17 0 4.88-1.28 4.88-5z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M182 66h-9.16L171 76.05h-5.55L174 33.3h7.08l8.61 42.75h-5.89zm-.92-4.83l-3.63-20.67-3.73 20.65z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M211.84 76.05l-5.93-17.53h-5v17.53h-5.74V33.3h10.69c6.47 0 10.38 2.75 10.38 9v7.14c0 4.28-1.83 6.91-5 8.19l6.48 18.38zM200.9 53.51h4.71c3.17 0 4.88-1.28 4.88-5.07v-5c0-3.79-1.71-5.07-4.88-5.07h-4.71z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M240.67 76.05l-7-20.46-4 7.39v13.07h-5.74V33.3h5.74v20.58l10-20.58h6.11l-8.74 16.06 9.47 26.69z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M256.3 76.05V33.3h18v5.07H262V51.8h10.39v5.14H262V71h12.5v5.07z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M281.28 76.05V33.3H287l10.75 29.44V33.3h5.32v42.75h-5.5l-11-30.41v30.41z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M332.16 67.5c0 6.42-3.91 9-10.38 9h-.49c-6.47 0-10.38-2.56-10.38-9V41.85c0-6.17 3.91-9 10.38-9h.49c6.47 0 10.38 2.87 10.38 9v5.92h-5.74V43c0-3.79-1.71-5.07-4.88-5.07s-4.89 1.28-4.89 5.07v23.4c0 3.79 1.71 5.07 4.89 5.07s4.88-1.28 4.88-5.07v-7.14h-5.13v-4.89h10.87z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M340.1 76.05V33.3h5.74v42.75z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M354.15 76.05V33.3h5.74l10.75 29.44V33.3H376v42.75h-5.5l-11-30.41v30.41z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/><path d="M384 76.05V33.3h18v5.07h-12.24V51.8h10.38v5.14h-10.38V71h12.46v5.07z" class="3eaf43f9-5baf-4d06-a56e-79627f7ef557"/></g></g></svg>							</a>
+						</div>
+
+						<div class="grid__col grid__col--6 grid__col--m-12 spacing-m-mini-top txt-right">
+							<a class="btn" href="/contact">Let's Talk</a>						</div>
+					</div>
+
+					<div class="site-footer__main section section--huge spacing-small">
+                            
+    <div class="site-footer__main-inner site-footer__main-inner--single grid grid--spaced section section--large txt-light">
+        <div class="grid__col grid__col--5 grid__col--tb2-4 grid__col--m-12 grid grid--spaced">
+            <div class="site-footer__address site-footer__address--left grid__col grid__col--5 grid__col--tb2-12 grid__col--m-12">
+                                    <address>Jactin House<br>
+24 Hood St<br>
+Manchester<br>
+M4 6WX</address>
+                            </div>
+        </div>
+
+        <div class="grid__col grid__col--2 grid__col--tb2-4 grid__col--m-0">
+            <div class="site-footer__graphic">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 204.12"><defs><style>.e3ac28f9-f9d8-4ae6-b9c8-36f13494fabb{fill:#ff1e3c;}</style></defs><g id="e6832a26-05a5-447f-b3af-a0c4e0d39e7a"><g id="484f5361-5ab4-4848-94f1-b76921adfab1"><path d="M63.78 115.69l36.54 21.58-70.58 40.65 34-62.23M60 101.94l-4.92 9L21 173.16l-16.93 31 30.58-17.61 70.58-40.64 14.77-8.53-14.63-8.64-36.55-21.59-8.82-5.21z" class="e3ac28f9-f9d8-4ae6-b9c8-36f13494fabb"/><path d="M90.25 26.14l-34 62.05L19.7 66.62l70.55-40.48M115.89 0L85.31 17.54 14.77 58 0 66.49l14.66 8.66 36.52 21.58 8.82 5.21 4.92-9 34-62L115.89 0z" class="e3ac28f9-f9d8-4ae6-b9c8-36f13494fabb"/></g></g></svg>            </div>
+        </div>
+
+        <div class="grid__col grid__col--5 grid__col--tb2-4 grid__col--m-12 grid grid--spaced spacing-m-tiny">
+                            <div class="site-footer__location-links">
+                                            <a class="site-footer__location-link" href="tel:+44 (0)330 043 0120">+44 (0)330 043 0120</a>
+                    
+                                            <a class="site-footer__location-link" href="mailto:hello@sparkengine.tv">hello@sparkengine.tv</a>
+                                    </div>
+                    </div>
+    </div>
+					</div>
+
+					<div class="site-footer__bottom section section--large grid grid--spaced">
+									<ul class="social social--footer social--light">
+															<li class="social__item social__item--facebook">
+							<a href="https://www.facebook.com/sparkengineuk" target="_blank">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.5 30"><path d="M3 4.5A4.5 4.5 0 0 1 7.5 0h6v6c.09-.09-3.75 0-3.75 0a.75.75 0 0 0-.75.75v3.75h4.4l-1.4 6H9V30H3V16.5H0v-6h3v-6z"/></svg>							</a>
+						</li>
+																				<li class="social__item social__item--twitter">
+							<a href="https://twitter.com/sparkengine" target="_blank">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.95 24.34"><path d="M26.88 6.06v.79c.02 8.13-6.16 17.49-17.43 17.49a17.39 17.39 0 0 1-9.42-2.76 12.46 12.46 0 0 0 1.47.09 12.33 12.33 0 0 0 7.63-2.63 6.15 6.15 0 0 1-5.74-4.27 6.16 6.16 0 0 0 2.77-.11 6.15 6.15 0 0 1-4.93-6v-.08a6.12 6.12 0 0 0 2.78.77 6.15 6.15 0 0 1-1.9-8.2 17.44 17.44 0 0 0 12.66 6.42 6.15 6.15 0 0 1 10.47-5.6 12.3 12.3 0 0 0 3.9-1.49 6.16 6.16 0 0 1-2.7 3.4 12.28 12.28 0 0 0 3.53-1 12.48 12.48 0 0 1-3.09 3.18z"/></svg>							</a>
+						</li>
+																				<li class="social__item social__item--instagram">
+							<a href="https://www.instagram.com/sparkengine.tv" target="_blank">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M21 3a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h14m0-3H7a7 7 0 0 0-7 7v14a7 7 0 0 0 7 7h14a7 7 0 0 0 7-7V7a7 7 0 0 0-7-7z"/><path d="M14 9.91A4.09 4.09 0 1 1 9.91 14 4.09 4.09 0 0 1 14 9.91m0-3A7.09 7.09 0 1 0 21.09 14 7.1 7.1 0 0 0 14 6.91z"/><circle cx="21.5" cy="6.5" r="1.5"/></svg>							</a>
+						</li>
+																					</ul>
+		
+						<div class="grid__col grid__col--6 grid__col--m-12 spacing-m-small-top">
+															<p class="site-footer__copy">© Spark Engine 2023</p>
+													</div>
+
+						<div class="grid__col grid__col--6 grid__col--m-12 spacing-m-tiny-top">
+							<p class="site-footer__attr"><a href="https://www.fhoke.com" target="_blank">Site by Fhoke</a></p>
+						</div>
+					</div>
+				</footer>
+			
+		</div><!--end .page-wrap-->
+
+		<script type="text/javascript" src="../js/app.min.js" id="spark-engine-js"></script>
+<script type="text/javascript" id="slate-ajax-js-extra">
+/* <![CDATA[ */
+var ajax_data = {"ajax_admin":"https:\/\/sparkengine.tv\/wp-admin\/admin-ajax.php","security":"3a0c82cb1e"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/ajax.min.js" id="slate-ajax-js"></script>
+<script type="text/javascript" src="../js/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="../js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="../js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="../js/dom-ready.min.js" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="../js/hooks.min.js" id="wp-hooks-js"></script>
+<script type="text/javascript" src="../js/i18n.min.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="text/javascript" src="../js/a11y.min.js" id="wp-a11y-js"></script>
+<script type="text/javascript" defer="defer" src="../js/vendor-theme.min.js" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"1a2fa427588f8e9632c9b7280935cf2c"}}},"hmr_dev":"","public_path":"https:\/\/sparkengine.tv\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="../js/scripts-theme.min.js" id="gform_gravityforms_theme-js"></script>
+
+					</body>
+</html>
