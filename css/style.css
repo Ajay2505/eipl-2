@@ -10923,15 +10923,14 @@ body.lock-scroll {
     width: 100%
 }
 
-.title-overline:before,
+/* .title-overline:before, */
 .share:before,
 .post-styles blockquote:not(.blockquote--alt):before,
 .site-banner--archive .site-banner__title:before,
 .site-banner--std .site-banner__content:before,
 .site-banner--std-alt .site-banner__content:before,
 .site-banner--work .site-banner__content:before,
-.site-banner--services .site-banner__content:before,
-.bg-gray__title:before {
+.site-banner--services .site-banner__content:before {
     content: "";
     display: block;
     background: #2C6715;
@@ -14017,7 +14016,7 @@ body:not(.single-work):not(.post-type-archive-work) .site-menu .current_page_par
     }
 
     .bx-pager-item a.active {
-        background: url("../fonts/ZxSKdRtwa32S.svg") center/100% no-repeat
+        background: url("/assets/images/icons/pentagon-black.jpg") center/100% no-repeat
     }
 }
 
@@ -17933,7 +17932,7 @@ a.page-cta {
 
 @media screen and (min-width: 769px) {
     .posts-row__inner {
-        padding-right: calc((1550px - 1150px) / 2)
+        padding-block: calc((1550px - 1150px) / 2);
     }
 
     .posts-row__btn {

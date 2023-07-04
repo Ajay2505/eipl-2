@@ -1,3 +1,6 @@
+gsap.registerPlugin(ScrollTrigger);
+const lineWrappers = document.querySelectorAll(".line_wrapper");
+
 const observer = new IntersectionObserver(playAnimation);
 const animations = [];
 
@@ -28,7 +31,7 @@ animationConfigurations.forEach((config) => {
   });
   animations.push({ element, animation });
 });
-
+      
 function playAnimation(entries, observer) {
   entries.forEach((entry) => {
     animations.forEach((anim) => {
@@ -46,4 +49,17 @@ function playAnimation(entries, observer) {
 // Observe all elements with animations
 animations.forEach((anim) => {
   observer.observe(anim.element);
+});
+
+lineWrappers.forEach(line => {
+  gsap.to(line.querySelector(".line_anime"), {
+    width: "250px",
+    scrollTrigger: {
+      trigger: line,  
+      start: "top 70%",
+      end: "center 20%",
+      scrub: true,
+      // markers: true,
+    },
+  });
 });

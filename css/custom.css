@@ -5,6 +5,7 @@
   --heading-main: clamp(40px, 5vw, 75px);
   --heading-sec: clamp(30px, 5vw, 60px);
   --heading-ter: clamp(25px, 5vw, 45px);
+  --green: #2c6715;
 }
 
 h1,
@@ -33,7 +34,8 @@ a:hover {
   font-size: var(--heading-sec) !important;
 }
 
-.work-slider__title, .heading_ter {
+.work-slider__title,
+.heading_ter {
   font-size: var(--heading-ter) !important;
 }
 
@@ -63,7 +65,6 @@ a:hover {
   background-image: url("/assets/images/home-banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center; */
   width: 100%;
   height: 100vh;
   display: flex;
@@ -253,7 +254,7 @@ a:hover {
   font-size: 20px;
 }
 .lpg_section .content_wrapper .left .inner_container {
-  height: 135px;
+  height: fit-content;
 }
 .lpg_section .content_wrapper .left .arrow_next {
   display: block;
@@ -382,16 +383,14 @@ a:hover {
   opacity: 0;
   transition: 0.5s ease-out;
 }
+
 .chem_section .content_wrapper .arrow_next:hover::before {
   opacity: 1;
 }
+
 .chem_section .content_wrapper .arrow_next:hover {
   transform: rotate3d(0, 1, 0, 30deg);
 }
-
-/* .img_wrapper {
-  overflow: hidden;
-} */
 
 .img_wrapper img {
   width: 100%;
@@ -399,4 +398,22 @@ a:hover {
   object-fit: cover;
   vertical-align: middle;
   max-height: 560px;
+}
+
+.line_wrapper {
+  position: relative;
+}
+
+.line_anime {
+  display: inline-block;
+  width: 0;
+  height: 10px;
+  margin-bottom: 30px;
+  background: var(--green);
+}
+
+.line_anime.right {
+  position: absolute;
+  right: 0;
+  top: -10%;
 }
