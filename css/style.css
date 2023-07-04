@@ -10888,10 +10888,6 @@ button:not(.btn--arrow):not(.page-cta__submit):before {
     background-color: #ff1e3b
 }
 
-.bg-gray {
-    background: #e6e6e6 url("../fonts/xkkFRniJcANb.svg") top -675px left -200px/900px no-repeat
-}
-
 .bg-gray__title {
     text-align: right
 }
