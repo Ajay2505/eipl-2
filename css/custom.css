@@ -43,8 +43,16 @@ a:hover {
   background-color: #e6e6e6;
 }
 
+.gray {
+  filter: grayscale(1);
+}
+
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 130px;
 }
 
 .h-screen {
@@ -416,4 +424,22 @@ a:hover {
   position: absolute;
   right: 0;
   top: -10%;
+}
+
+.client_img_wrapper {
+  filter: grayscale(1);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+  background-color: transparent;
+}
+
+.client_img_wrapper img {
+  max-width: 200px;
+  max-height: 140px;
+  width: 100%;
+  object-fit: contain;
+  vertical-align: middle;
+  background-color: transparent;
 }

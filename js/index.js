@@ -17,7 +17,6 @@ const animationConfigurations = [
     elementId: "lottie-animation-3",
     jsonPath: "assets/json-files/petrolium-tank.json",
   },
-  // Add more animation configurations as needed
 ];
 
 animationConfigurations.forEach((config) => {
