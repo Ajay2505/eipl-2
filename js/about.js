@@ -8,3 +8,17 @@
 //     //   markers: true,
 //     },
 //   });
+
+var swiper = new Swiper(".mySwiper", {      
+    loop: true,
+    pagination: {
+        el: ".swiper_pagination",
+        clickable: true,
+    },
+    slidesPerView: 2,
+    spaceBetween: 40,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+});

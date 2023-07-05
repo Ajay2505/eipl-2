@@ -18,7 +18,7 @@ h6 {
   font-weight: 200;
 }
 
-a:hover {
+a:hover, .green {
   color: var(--green);
 }
 
