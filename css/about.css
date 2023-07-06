@@ -40,6 +40,7 @@
   height: 260px;
   bottom: 0;
   left: 50%;
+  transform: translateX(-50%);
   background-color: var(--green);
 }
 
@@ -100,35 +101,36 @@
 }
 
 .swiper_img {
-    max-width: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+  max-width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .swiper-slide .info p {
-    font-size: 18px;
-    color: #777777;
+  font-size: 18px;
+  color: #777777;
 }
 
 .swiper_img img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .swiper_pagination {
-    position: absolute;
-    bottom: 90px !important;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  bottom: 90px !important;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.swiper-button-next, .swiper-button-prev {
-    color: var(--green);
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--green);
 }
 
 .swiper-pagination-bullet-active {
-    background-color: var(--green);
+  background-color: var(--green);
 }
