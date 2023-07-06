@@ -5,6 +5,7 @@
   --heading-main: clamp(40px, 5vw, 75px);
   --heading-sec: clamp(30px, 5vw, 60px);
   --heading-ter: clamp(25px, 5vw, 45px);
+  --text-size: 24px;
   --green: #2c6715;
 }
 
@@ -16,6 +17,18 @@ h5,
 h6, .kanit_font, p, li {
   font-family: "Kanit", sans-serif;
   font-weight: 200;
+}
+
+.kanit_font {
+  font-family: "Kanit", sans-serif !important;
+}
+
+.text_size {
+  font-size: var(--text-size) !important;
+}
+
+.letter_spacing_0 {
+  letter-spacing: 0;
 }
 
 a:hover, .green {
@@ -90,9 +103,21 @@ a:hover, .green {
   text-transform: uppercase;
 }
 
+.tt_none {
+  text-transform: none !important;
+}
+
+.fw-2 {
+  font-weight: 200 !important;
+}
+
+.fw-3 {
+  font-weight: 300 !important;
+}
+
 .fw-4 {
   letter-spacing: 0px;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .site-banner__title {
@@ -174,6 +199,7 @@ a:hover, .green {
   color: #fff;
   font-weight: 400;
   margin-top: 50px;
+  line-height: 1;
 }
 
 .first_section .main_text {
