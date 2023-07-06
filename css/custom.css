@@ -13,7 +13,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, .kanit_font, p, li {
   font-family: "Kanit", sans-serif;
   font-weight: 200;
 }
@@ -67,6 +67,11 @@ a:hover, .green {
   height: 100vh !important;
 }
 
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
 .flex_col {
   display: flex;
   flex-direction: column;
@@ -75,6 +80,10 @@ a:hover, .green {
 .flex_col > * {
   width: 100%;
   height: 100%;
+}
+
+.text_upper {
+  text-transform: uppercase;
 }
 
 .fw-4 {
@@ -91,7 +100,14 @@ a:hover, .green {
   grid-auto-flow: column;
   width: 100%;
   height: 100%;
+}
+
+.grid_cols_2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid_cols_4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid_row > * {
