@@ -202,7 +202,7 @@ a:hover, .green {
   gap: 40px;
 }
 .services_section .content_wrapper .custom_rows .svg_orange {
-  stroke: orange;
+  stroke: var(--green);
 }
 .services_section .content_wrapper .custom_rows .svg_black {
   stroke: #000000;
