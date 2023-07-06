@@ -43,6 +43,10 @@ a:hover, .green {
   background-color: #e6e6e6;
 }
 
+.off_white {
+  color: #ffffffb3 !important;
+}
+
 .gray {
   filter: grayscale(1);
 }
@@ -145,7 +149,7 @@ a:hover, .green {
   background-color: var(--green);
   position: absolute;
   top: 0;
-  animation: width 0.9s forwards 0.5s;
+  animation: width 0.9s forwards 0.7s;
 }
 
 @keyframes width {
