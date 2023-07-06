@@ -126,15 +126,26 @@ a:hover, .green {
 }
 
 .first_section {
-  background-image: url("/assets/images/home-banner.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
   align-items: flex-end;
-  background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #090909;
+  position: relative;
+}
+
+.first_section .imgs_wrapper {
+  position: absolute;
+  inset: 0;
+  /* filter: grayscale(1); */
+  opacity: .18;
+  user-select: none;
+}
+
+.first_sec_img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .first_section .container {
