@@ -74,3 +74,13 @@ gsap.fromTo(".first_sec_img", {
   ease: "power2.out",
 });
 
+document.querySelector(".site-menu-overlay").addEventListener("click", (evt) => {
+  setTimeout(() => {
+    evt.target.style.display = "none";
+  }, 300);
+  evt.target.classList.remove("active");
+  document.querySelector("body").classList.remove("lock-scroll", "menu-open");
+  document.querySelector(".js-toggle-menu").classList.remove("active");
+});
+
+// document.querySelector(".toggle-menu").addEventListener("click", (e) => e.stopPropagation())
