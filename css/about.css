@@ -102,7 +102,7 @@
 }
 
 .swiper-slide .info p {
-  font-size: 18px;
+  font-size: var(--text-size);
   color: #777777;
 }
 
