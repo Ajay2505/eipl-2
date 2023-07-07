@@ -79,6 +79,10 @@ a:hover, .green {
   font-size: var(--sub-heading) !important;
 }
 
+.text_xs {
+  font-size: 15px !important;
+}
+
 .bg-gray {
   background-color: #e6e6e6;
 }
