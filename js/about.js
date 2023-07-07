@@ -26,3 +26,19 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+const lineWrappers = document.querySelectorAll(".line_wrapper");
+
+
+lineWrappers.forEach(line => {
+  gsap.to(line.querySelector(".line_anime"), {
+    width: "250px",
+    scrollTrigger: {
+      trigger: line,  
+      start: "top 70%",
+      end: "center 20%",
+      scrub: true,
+      // markers: true,
+    },
+  });
+});
