@@ -68,7 +68,7 @@ gsap.fromTo(".first_sec_img", {
   clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
 }, {
   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-  duration: .45, 
+  duration: .5, 
   stagger: .1,
   delay: .5,
   ease: "power2.out",
